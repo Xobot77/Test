@@ -1,0 +1,23 @@
+//Window Size and cost thingy
+
+float height = 0;
+
+while height > 0 || height <= 5 )
+{
+	Console.Write(“What is the height of the window(m)(max 5m): ”); 
+	string height = Consle.ReadLine();
+	float height = float.parse(height);
+}
+
+Console.Write(“What is the width of the window(m): ”); 
+string width = Consle.ReadLine();
+float width = float.parse(width);
+
+float windowSize = height*width;
+
+Console.Write("What is the cost of your material per m^2");
+float = float.parse(Console.ReadLine);
+
+
+
+
